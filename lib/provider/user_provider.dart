@@ -6,7 +6,6 @@ class UserProvider extends ChangeNotifier {
   String userName = '';
 
   void updateUserName(String name) {
-
     userName = name;
 
     notifyListeners();
